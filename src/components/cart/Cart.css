@@ -1,0 +1,19 @@
+.product-list {
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+}
+.product-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px 0;
+}
+.product-price {
+    color: rgb(238, 108, 77);
+}
+.product-image {
+    width: 80px;
+    height: auto;
+}
+.remove-button {
+    float: right;
+}
