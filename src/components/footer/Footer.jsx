@@ -4,7 +4,7 @@ function Footer() {
         <div className="container">
           <div className="row logo">
             <div className="col-lg-4 col-sm-12 col-xs-12">
-              <img className="m-3" src="src/assets/logo.png" alt="logo" width="128" height="83"/>
+              <img className="m-3" src="public/logo.png" alt="logo" width="128" height="83"/>
             </div>
             <div className="col-lg-4 col-sm-12 col-xs-12">
               <div className="p-4 pb-0 mt-3">

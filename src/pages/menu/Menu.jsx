@@ -7,7 +7,7 @@ import ProductModel from "src/models/Product"
 import ImageModel from "src/models/Image"
 
 export default function Menu() {
-  const products = [new ProductModel("id1", "Tropical Tango Twist", "A zesty fusion of exotic fruit", new ImageModel("src/assets/slushy-1.png", "A slushy"), 2.99, true), new ProductModel("id2", "Fizzy Peach Paradise", "Peach kissed with sparkling delight", new ImageModel("src/assets/slushy-1.png", "A slushy"), 3.99, false)]
+  const products = [new ProductModel("id1", "Tropical Tango Twist", "A zesty fusion of exotic fruit", new ImageModel("public/slushy-1.png", "A slushy"), 2.99, true), new ProductModel("id2", "Fizzy Peach Paradise", "Peach kissed with sparkling delight", new ImageModel("public/slushy-1.png", "A slushy"), 3.99, false)]
 
   return (
     <Root>
