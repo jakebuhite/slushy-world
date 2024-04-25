@@ -5,7 +5,7 @@ import Root from "src/components/root/Root"
 import ImageModel from "src/models/Image"
 
 export default function About() {
-  let img = new ImageModel("public/about-us.png", "Old picture of slushy world hq")
+  let img = new ImageModel("/about-us.png", "Old picture of slushy world hq")
   
   return (
     <Root>

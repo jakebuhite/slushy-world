@@ -27,7 +27,7 @@ export default function Testimonial({ reviews, isActive }) {
                                     <p className="text-light fst-italic my-1">{ review.message }</p>
                                     <span className="text-sm mb-3 text-light">- { review.author }</span>
                                     <div className="align-items-center mt-3">
-                                        <img src="public/review-star.png" alt="Review star" /> 
+                                        <img src="/review-star.png" alt="Review star" /> 
                                         <small className="fw-bold px-2 text-light">5</small>
                                     </div>
                                 </div>
