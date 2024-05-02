@@ -17,6 +17,7 @@ import Cart from 'src/pages/cart/Cart'
 // Admin
 import Dashboard from 'src/pages/admin/Dashboard'
 import Messages from 'src/pages/admin/Messages'
+import MessageView from 'src/pages/admin/MessageView'
 import Orders from 'src/pages/admin/Orders'
 import Products from 'src/pages/admin/Products'
 
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
     path: "/admin/messages",
     element: <Messages />,
     errorElement: <ErrorPage />
+  },
+  {
+    path: "/admin/messages/:messageId",
+    element: <MessageView />
   },
   {
     path: "/admin/products",

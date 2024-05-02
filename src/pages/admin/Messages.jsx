@@ -22,8 +22,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/1" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -32,8 +32,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/2" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -42,8 +42,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/3" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -52,8 +52,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/4" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -62,8 +62,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/5" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -72,8 +72,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/6" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -82,8 +82,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/7" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -92,8 +92,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/8" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -102,8 +102,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/9" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                   <tr>
@@ -112,8 +112,8 @@ export default function Messages() {
                     <td>John Doe</td>
                     <td>john.doe@example.com</td>
                     <td>
-                      <button type="button" className="btn btn-primary">View</button>
-                      <button type="button" className="btn btn-danger">Remove</button>
+                      <a href="/admin/messages/10" className="btn btn-primary">View</a>
+                      <a href="#" className="btn btn-danger">Remove</a>
                     </td>
                   </tr>
                 </tbody>

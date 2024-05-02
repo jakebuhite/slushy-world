@@ -29,7 +29,7 @@ export default function AdminIndex({ pageName, active, children }) {
 function AdminHeader() {
     return (
         <header className="navbar navbar-dark sticky-top flex-md-nowrap p-0 shadow" style={{ backgroundColor: "#293241" }}>
-            <a className="navbar-brand col-md-3 col-lg-2 me-0 px-3" style={{ backgroundColor: "#293241", boxShadow: "none" }} href="index.html">
+            <a className="navbar-brand col-md-3 col-lg-2 me-0 px-3" style={{ backgroundColor: "#293241", boxShadow: "none" }} href="/admin">
                 <img src="/logo.png" alt="logo" width="57" height="37"/>
             </a>
             <div className="navbar-nav">
