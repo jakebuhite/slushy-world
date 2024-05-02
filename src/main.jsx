@@ -14,6 +14,12 @@ import About from 'src/pages/about/About'
 import Contact from 'src/pages/contact/Contact'
 import Cart from 'src/pages/cart/Cart'
 
+// Admin
+import Dashboard from 'src/pages/admin/Dashboard'
+import Messages from 'src/pages/admin/Messages'
+import Orders from 'src/pages/admin/Orders'
+import Products from 'src/pages/admin/Products'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,6 +44,26 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/admin",
+    element: <Dashboard />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/admin/orders",
+    element: <Orders />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/admin/messages",
+    element: <Messages />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/admin/products",
+    element: <Products />,
     errorElement: <ErrorPage />
   }
 ])
